@@ -1,0 +1,11 @@
+pages\BasePage.class
+components\Header.class
+utilities\FakeData.class
+pages\LoginPage.class
+pages\RegistrationPage.class
+pages\UserPage.class
+components\Footer.class
+pages\OnSalePage.class
+components\Product.class
+pages\AllProductsPage.class
+pages\MainPage.class

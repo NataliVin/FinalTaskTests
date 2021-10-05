@@ -20,10 +20,10 @@ public class MainPage extends BasePage {
     Header header;
     Actions actions = new Actions(getDriver());
 
-    @FindBy(xpath = "//div[@class='product']")
+    @FindBy(xpath = ".//div[@class='product']")
     private List<WebElement> containers;
 
-    @FindBy(xpath = "//a[@class='all-product-link float-xs-left float-md-right h4']")
+    @FindBy(xpath = ".//a[@class='all-product-link float-xs-left float-md-right h4']")
     private WebElement allProductsButton;
 
     public MainPage() {
@@ -59,7 +59,7 @@ public class MainPage extends BasePage {
 
     public List<WebElement> getListOfAllLanguages() {
         log.info("Getting a list of all languages");
-        List<WebElement> listOfAllLanguages = header.getMenuWithAllLanguages().findElements(By.xpath("//ul[@class='dropdown-menu hidden-sm-down']//li"));
+        List<WebElement> listOfAllLanguages = header.getMenuWithAllLanguages().findElements(By.xpath(".//ul[@class='dropdown-menu hidden-sm-down']//li"));
         return listOfAllLanguages;
     }
 
@@ -72,14 +72,14 @@ public class MainPage extends BasePage {
     public MainPage moveMouseToClothesCategory() {
         log.info("Hovering mouse over Clothes category");
         actions.moveToElement(header.getClothesLink()).build().perform();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@id='category-3']//li")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//li[@id='category-3']//li")));
         return this;
     }
 
     public MainPage moveMouseToAccessoriesCategory() {
         log.info("Hovering mouse over Accessories category");
         actions.moveToElement(header.getAccessoriesLink()).build().perform();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@id='category-6']//li")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//li[@id='category-6']//li")));
         return this;
     }
 

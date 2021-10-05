@@ -16,21 +16,21 @@ public class Product {
     private String discountAsString;
 
     public Product(WebElement container) {
-        this.name = container.findElement(By.xpath("//*[@class='h3 product-title']"));
+        this.name = container.findElement(By.xpath(".//*[@class='h3 product-title']"));
         this.nameAsString = name.getText();
-        if (!container.findElement(By.xpath("//span[@class='regular-price']")).isDisplayed()) {
-            this.oldPrice = null;
-            this.oldPriceAsDouble=0.00;
-        } else {
-            this.oldPrice = container.findElement(By.xpath("//span[@class='regular-price']"));
+        if (container.findElements(By.xpath(".//span[@class='regular-price']")).size()>0) {
+            this.oldPrice = container.findElement(By.xpath(".//span[@class='regular-price']"));
             this.oldPriceAsDouble = Double.parseDouble(oldPrice.getText().replace("€", ""));
-
         }
-        this.price = container.findElement(By.xpath("//span[@class='price']"));
+//        else {
+//            this.oldPrice = null;
+//            this.oldPriceAsDouble=0.00;
+//        }
+        this.price = container.findElement(By.xpath(".//span[@class='price']"));
         this.priceAsDouble = Double.parseDouble(price.getText().replace("€", ""));
-        if(container.findElements(By.xpath("//li[@class='product-flag discount']")).size()>0){
+        if(container.findElements(By.xpath(".//li[@class='product-flag discount']")).size()>0){
             this.discountAsString = container
-                    .findElement(By.xpath("//li[@class='product-flag discount']"))
+                    .findElement(By.xpath(".//li[@class='product-flag discount']"))
                     .getText()
                     .replace("-", "")
                     .replace("%", "");

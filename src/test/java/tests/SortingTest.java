@@ -21,7 +21,6 @@ public class SortingTest extends BaseTest{
                 .getAllProductsNames();
         //allProductsPage.clickNextButton();
 
-
         softAssertions.assertThat(actualSortedByNameProductsList)
                 .as("Sorting by name A to Z is not correct")
                 .isEqualTo(expectedSortedByNameProductsList);

@@ -17,25 +17,25 @@ public class AllProductsPage extends BasePage{
         PageFactory.initElements(getDriver(), this);
     }
 
-    @FindBy(xpath = "//div[@class='thumbnail-container reviews-loaded']")
+    @FindBy(xpath = ".//div[@class='thumbnail-container reviews-loaded']")
     private List<WebElement> AllProducts;
 
-    @FindBy(xpath = "//a[@class='next js-search-link']")
+    @FindBy(xpath = ".//a[@class='next js-search-link']")
     private WebElement nextButton;
 
-    @FindBy(xpath = "//button[@class='btn-unstyle select-title']")
+    @FindBy(xpath = ".//button[@class='btn-unstyle select-title']")
     private WebElement sortByButton;
 
-    @FindBy(xpath = "//a[contains(text(),'Name, A to Z')]")
+    @FindBy(xpath = ".//a[contains(text(),'Name, A to Z')]")
     private WebElement sortByNameAtoZOption;
 
-    @FindBy(xpath = "//a[contains(text(),'Name, Z to A')]")
+    @FindBy(xpath = ".//a[contains(text(),'Name, Z to A')]")
     private WebElement sortByNameZtoAOption;
 
-    @FindBy(xpath = "//a[contains(text(),'Price, low to high')]")
+    @FindBy(xpath = ".//a[contains(text(),'Price, low to high')]")
     private WebElement sortByPriceLowToHighOption;
 
-    @FindBy(xpath = "//a[contains(text(),'Price, high to low')]")
+    @FindBy(xpath = ".//a[contains(text(),'Price, high to low')]")
     private WebElement sortByPriceHighToLowOption;
 
 
@@ -43,12 +43,12 @@ public class AllProductsPage extends BasePage{
     public List<String> getAllProductsNames() {
         log.info("Getting names of all the products");
         List<String> allProductsList= new ArrayList<>();
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='h3 product-title']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='thumbnail-container reviews-loaded']")));
         for (WebElement container : AllProducts) {
             allProductsList.add((new Product(container)).getNameAsString());
         }
 //        clickNextButton();
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='thumbnail-container reviews-loaded']")));
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='thumbnail-container reviews-loaded']")));
 //        for (WebElement container : AllProducts) {
 //            allProductsList.add(new Product(container).getNameAsString());
 //        }
@@ -57,7 +57,7 @@ public class AllProductsPage extends BasePage{
 
     public AllProductsPage clickNextButton(){
         log.info("Clicking Next button");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='products row']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='thumbnail-container reviews-loaded']")));
         nextButton.click();
         //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='product']")));
         return this;
@@ -70,26 +70,26 @@ public class AllProductsPage extends BasePage{
     }
     public AllProductsPage chooseSortByNameAtoZOption(){
         log.info("Choosing Sort By Name A to Z option by locator{}",sortByNameAtoZOption);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='dropdown-menu']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='dropdown-menu']")));
         sortByNameAtoZOption.click();
         return this;
     }
     public AllProductsPage chooseSortByNameZtoAOption(){
         log.info("Choosing Sort By Name Z to A option");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='dropdown-menu']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='dropdown-menu']")));
         sortByNameZtoAOption.click();
         return this;
     }
 
     public AllProductsPage chooseSortByPriceLowToHighOption(){
         log.info("Choosing Sort By Price Low to High option");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='dropdown-menu']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='dropdown-menu']")));
         sortByPriceLowToHighOption.click();
         return this;
     }
     public AllProductsPage chooseSortByPriceHighToLowOption(){
         log.info("Choosing Sort By Price High to Low option");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='dropdown-menu']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='dropdown-menu']")));
         sortByPriceHighToLowOption.click();
         return this;
     }

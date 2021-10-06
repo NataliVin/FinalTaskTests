@@ -20,15 +20,14 @@ public class Product {
         this.nameAsString = name.getText();
         if (container.findElements(By.xpath(".//span[@class='regular-price']")).size() == 0) {
             this.oldPrice = null;
-            this.oldPriceAsDouble=0.00;
+            this.oldPriceAsDouble = 0.00;
         } else {
             this.oldPrice = container.findElement(By.xpath(".//span[@class='regular-price']"));
             this.oldPriceAsDouble = Double.parseDouble(oldPrice.getText().replace("€", ""));
         }
         this.price = container.findElement(By.xpath(".//span[@class='price']"));
         this.priceAsDouble = Double.parseDouble(price.getText().replace("€", ""));
-        if (container.findElements(By.xpath(".//li[@class='product-flag discount']")).size() == 0)
-                 {
+        if (container.findElements(By.xpath(".//li[@class='product-flag discount']")).size() == 0) {
             discount = 0;
         } else {
             this.discountAsString = container

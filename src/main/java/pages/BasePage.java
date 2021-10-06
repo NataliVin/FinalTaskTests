@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 @Getter
 public class BasePage {
 
@@ -23,13 +24,15 @@ public class BasePage {
         return THREAD_LOCAL_DRIVER.get();
     }
 
-    protected WebElement waitUntilVisible(By locator, int seconds){
+    protected WebElement waitUntilVisible(By locator, int seconds) {
         return new WebDriverWait(getDriver(), seconds).until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
-    protected WebElement waitUntilClicable(By locator, int seconds){
+
+    protected WebElement waitUntilClicable(By locator, int seconds) {
         return new WebDriverWait(getDriver(), seconds).until(ExpectedConditions.elementToBeClickable(locator));
     }
-    protected Boolean waitUntilInvisible(By locator, int seconds){
+
+    protected Boolean waitUntilInvisible(By locator, int seconds) {
         return new WebDriverWait(getDriver(), seconds).until(ExpectedConditions.invisibilityOfElementLocated(locator));
     }
 }

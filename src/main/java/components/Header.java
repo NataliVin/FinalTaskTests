@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.List;
 
 @Getter
@@ -32,7 +31,7 @@ public class Header {
     @FindBy(xpath = "//li[@id='category-6']")
     private WebElement accessoriesLink;
 
-    @FindBy(xpath = "//li[@id='category-9']")
+    @FindBy(xpath = "//li[@id='category-9']//a")
     private WebElement artLink;
 
     @FindBy(xpath = "//li[@id='category-3']//li")

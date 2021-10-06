@@ -3,7 +3,6 @@ package tests;
 import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
 import pages.MainPage;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SubscribeSectionTest extends BaseTest {

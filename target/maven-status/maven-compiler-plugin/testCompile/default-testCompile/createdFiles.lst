@@ -1,9 +1,9 @@
-tests\PriceDropTest.class
-tests\SubscribeSectionTest.class
-tests\SubMenuTest.class
-tests\SortingTest.class
 tests\LanguagesTest.class
 tests\BaseTest.class
 tests\RegistrationWithValidDataTest.class
 tests\RegistrationWithInvalidDataTest.class
+tests\PriceDropTest.class
+tests\SubscribeSectionTest.class
+tests\SubMenuTest.class
+tests\SortingTest.class
 tests\PopularProductTest.class

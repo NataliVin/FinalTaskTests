@@ -3,7 +3,6 @@ package tests;
 import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
 import pages.MainPage;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

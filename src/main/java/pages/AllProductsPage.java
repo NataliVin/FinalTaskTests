@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +39,6 @@ public class AllProductsPage extends BasePage {
     @FindBy(xpath = "//ul[@class='category-top-menu']//a[@class='text-uppercase h6']")
     private WebElement homeButton;
 
-
     public List<String> getAllProductsNames(int pageCount) {
         log.info("Getting names of all the products");
         List<String> allProductsList = new ArrayList<>();
@@ -58,6 +56,23 @@ public class AllProductsPage extends BasePage {
         return allProductsList;
     }
 
+    public List<Double> getAllProductsPrices(int pageCount) {
+        log.info("Getting prices of all the products");
+        List<Double> allProductsList = new ArrayList<>();
+        for (int i = 0; i < pageCount; i++) {
+            waitUntilVisible(By.xpath("//div[@class='thumbnail-container reviews-loaded']"), 5);
+            for (WebElement container : AllProducts) {
+                allProductsList.add((new Product(container)).getPriceAsDouble());
+            }
+            if (i + 1 < pageCount) {
+                clickNextButton();
+            } else {
+                clickHomeButton();
+            }
+        }
+        return allProductsList;
+    }
+
     public AllProductsPage clickNextButton() {
         log.info("Clicking Next button");
         waitUntilClicable(By.xpath("//a[@class='next js-search-link']"), 3);
@@ -65,12 +80,14 @@ public class AllProductsPage extends BasePage {
         waitingForSpinner();
         return this;
     }
-public AllProductsPage clickHomeButton(){
-    log.info("Clicking Home button");
-    waitUntilClicable(By.xpath("//ul[@class='category-top-menu']//a[@class='text-uppercase h6']"), 3);
-    homeButton.click();
-    return this;
-}
+
+    public AllProductsPage clickHomeButton() {
+        log.info("Clicking Home button");
+        waitUntilClicable(By.xpath("//ul[@class='category-top-menu']//a[@class='text-uppercase h6']"), 3);
+        homeButton.click();
+        return this;
+    }
+
     public AllProductsPage clickSortByButton() {
         log.info("Clicking Sort By button");
         waitUntilClicable(By.xpath("//button[@class='btn-unstyle select-title']"), 3);
@@ -109,8 +126,9 @@ public AllProductsPage clickHomeButton(){
         waitingForSpinner();
         return this;
     }
-    public void waitingForSpinner(){
-        waitUntilVisible(By.xpath("//span[@class='spinner']"),5);
-        waitUntilInvisible(By.xpath("//span[@class='spinner']"),5);
+
+    public void waitingForSpinner() {
+        waitUntilVisible(By.xpath("//span[@class='spinner']"), 5);
+        waitUntilInvisible(By.xpath("//span[@class='spinner']"), 5);
     }
 }

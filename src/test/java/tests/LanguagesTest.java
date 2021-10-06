@@ -27,14 +27,14 @@ public class LanguagesTest extends BaseTest {
     public void checkThatUkrainianExistsInTheLanguageMenu() {
         MainPage mainPage = new MainPage();
         mainPage.clickLanguageButton();
-        String expectedLanguageToBeInTheList ="Українська";
+        String expectedLanguageToBeInTheList = "Українська";
         List<WebElement> allLanguages = mainPage.getListOfAllLanguages();
         List<String> allLanguagesAsString = new ArrayList<>();
         for (int i = 0; i < allLanguages.size(); i++) {
             allLanguagesAsString.add(allLanguages.get(i).getText());
         }
         assertThat(allLanguagesAsString)
-            .as("Ukrainian language doesn't exist in the Language Menu")
-            .contains(expectedLanguageToBeInTheList);
+                .as("Ukrainian language doesn't exist in the Language Menu")
+                .contains(expectedLanguageToBeInTheList);
     }
 }

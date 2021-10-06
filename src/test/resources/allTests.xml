@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" parallel="methods" thread-count="2">
+    <test name="All tests">
+        <classes>
+            <class name="tests.RegistrationWithValidDataTest"/>
+            <class name="tests.RegistrationWithInvalidDataTest"/>
+            <class name="tests.LanguagesTest"/>
+            <class name="tests.PopularProductTest"/>
+            <class name="tests.PriceDropTest"/>
+            <class name="tests.SortingTest"/>
+            <class name="tests.SubMenuTest"/>
+            <class name="tests.SubscribeSectionTest"/>
+        </classes>
+    </test>
+</suite>

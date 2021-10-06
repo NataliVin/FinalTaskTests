@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -59,9 +58,8 @@ public class MainPage extends BasePage {
 
     public List<WebElement> getListOfAllLanguages() {
         log.info("Getting a list of all languages");
-        List<WebElement> listOfAllLanguages = header.getMenuWithAllLanguages()
-                .findElements(By.xpath(".//li"));
-        return listOfAllLanguages;
+        List <WebElement> allLanguages= header.getMenuWithAllLanguages().findElements(By.xpath(".//li"));
+        return allLanguages;
     }
 
     public LoginPage clickSignInButton() {
@@ -72,7 +70,7 @@ public class MainPage extends BasePage {
 
     public MainPage moveMouseToClothesCategory() {
         log.info("Hovering mouse over Clothes category");
-        waitUntilVisible(By.xpath("//li[@id='category-3']"),3);
+        waitUntilVisible(By.xpath("//li[@id='category-3']"), 3);
         actions.moveToElement(header.getClothesLink()).build().perform();
         return this;
     }
@@ -94,14 +92,14 @@ public class MainPage extends BasePage {
         switch (category) {
             case "Clothes":
                 log.info("Getting all elements from Clothes submenu");
-                waitUntilVisible(By.xpath("//li[@id='category-3']//li"),5);
+                waitUntilVisible(By.xpath("//li[@id='category-3']//li"), 5);
                 return header.getClothesSubMenu().stream().map(WebElement::getText)
                         .map(String::trim)
                         .map(String::toUpperCase)
                         .collect(Collectors.toList());
             case "Accessories":
                 log.info("Getting all elements from Accessories submenu");
-                waitUntilVisible(By.xpath("//li[@id='category-6']//li"),5);
+                waitUntilVisible(By.xpath("//li[@id='category-6']//li"), 5);
                 return header.getAccessoriesSubMenu().stream().map(WebElement::getText)
                         .map(String::trim)
                         .map(String::toUpperCase)

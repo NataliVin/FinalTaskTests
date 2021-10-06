@@ -4,11 +4,12 @@ import components.Product;
 import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
 import pages.MainPage;
+
 import java.util.List;
 
-public class PriceDropTest extends BaseTest{
+public class PriceDropTest extends BaseTest {
     @Test
-    public void checkThatEveryProductHasOldPriceAndCorrectNewPrice(){
+    public void checkThatEveryProductHasOldPriceAndCorrectNewPrice() {
         MainPage mainPage = new MainPage();
         SoftAssertions softAssertions = new SoftAssertions();
         double expectedPromoPrice;
@@ -16,8 +17,8 @@ public class PriceDropTest extends BaseTest{
         List<Product> actualOnSaleProductsList = mainPage
                 .clickPricesDropLink()
                 .getAllOnSaleProducts();
-        for(Product product:actualOnSaleProductsList) {
-            expectedPromoPrice=product.getOldPriceAsDouble()-(product.getOldPriceAsDouble()/100*product.getDiscount());
+        for (Product product : actualOnSaleProductsList) {
+            expectedPromoPrice = product.getOldPriceAsDouble() - (product.getOldPriceAsDouble() / 100 * product.getDiscount());
 
             softAssertions.assertThat(product.getPrice())
                     .as("Product doesn't have a new price")

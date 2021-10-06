@@ -18,25 +18,25 @@ public class Product {
     public Product(WebElement container) {
         this.name = container.findElement(By.xpath(".//*[@class='h3 product-title']"));
         this.nameAsString = name.getText();
-        if (container.findElements(By.xpath(".//span[@class='regular-price']")).size()>0) {
+        if (container.findElements(By.xpath(".//span[@class='regular-price']")).size() == 0) {
+            this.oldPrice = null;
+            this.oldPriceAsDouble=0.00;
+        } else {
             this.oldPrice = container.findElement(By.xpath(".//span[@class='regular-price']"));
             this.oldPriceAsDouble = Double.parseDouble(oldPrice.getText().replace("€", ""));
         }
-//        else {
-//            this.oldPrice = null;
-//            this.oldPriceAsDouble=0.00;
-//        }
         this.price = container.findElement(By.xpath(".//span[@class='price']"));
         this.priceAsDouble = Double.parseDouble(price.getText().replace("€", ""));
-        if(container.findElements(By.xpath(".//li[@class='product-flag discount']")).size()>0){
+        if (container.findElements(By.xpath(".//li[@class='product-flag discount']")).size() == 0)
+                 {
+            discount = 0;
+        } else {
             this.discountAsString = container
                     .findElement(By.xpath(".//li[@class='product-flag discount']"))
                     .getText()
                     .replace("-", "")
                     .replace("%", "");
             this.discount = Integer.parseInt(discountAsString);
-        } else {
-            discount = 0;
         }
     }
 }

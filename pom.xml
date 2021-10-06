@@ -8,54 +8,56 @@
     <artifactId>FinalTaskTest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-            <maven.compiler.source>8</maven.compiler.source>
-            <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <aspectj.version>1.9.8.M1</aspectj.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <build>
-            <plugins>
-                <plugin>
-                    <groupId>io.qameta.allure</groupId>
-                    <artifactId>allure-maven</artifactId>
-                    <version>2.10.0</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M5</version>
-                    <configuration>
-                        <suiteXmlFiles>
-                            <suiteXmlFile>src\test\resources\loginTests.xml</suiteXmlFile>
-                            <suiteXmlFile>src\test\resources\buttonsTests.xml</suiteXmlFile>
-                            <suiteXmlFile>src\test\resources\productTests.xml</suiteXmlFile>
-                        </suiteXmlFiles>
-                        <testFailureIgnore>true</testFailureIgnore>
-                        <includes>
-                            <include> **/MainRunner.java</include>
-                        </includes>
-                        <argLine>
-                            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                        </argLine>
-                        <systemProperties>
-                            <property>
-                                <name>allure.results.directory</name>
-                                <value>${project.build.directory}/reports/allure-results</value>
-                            </property>
-                            <property>
-                                <name>browser</name>
-                            </property>
-                        </systemProperties>
-                    </configuration>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.aspectj</groupId>
-                            <artifactId>aspectjweaver</artifactId>
-                            <version>${aspectj.version}</version>
-                        </dependency>
-                    </dependencies>
-                </plugin>
-            </plugins>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src\test\resources\loginTests.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\buttonsTests.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\productTests.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <includes>
+                        <include>**/MainRunner.java</include>
+                    </includes>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <systemProperties>
+                        <property>
+                            <name>allure.results.directory</name>
+                            <value>${project.build.directory}/reports/allure-results</value>
+                        </property>
+                        <property>
+                            <name>browser</name>
+                        </property>
+                    </systemProperties>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
     </build>
 
     <dependencies>

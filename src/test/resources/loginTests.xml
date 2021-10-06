@@ -2,9 +2,9 @@
 
 <suite name="Login suite" verbose="1" parallel="methods" thread-count="2">
     <test name="Login tests">
-            <classes>
-                <class name="tests.RegistrationWithValidDataTest"/>
-                <class name="tests.RegistrationWithInvalidDataTest"/>
-            </classes>
+        <classes>
+            <class name="tests.RegistrationWithValidDataTest"/>
+            <class name="tests.RegistrationWithInvalidDataTest"/>
+        </classes>
     </test>
 </suite>

@@ -5,15 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import java.util.List;
 
 @Getter
 public class Header {
-    public Header (WebDriver driver) {
+    public Header(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath ="//i[@class='material-icons expand-more']")
+    @FindBy(xpath = "//i[@class='material-icons expand-more']")
     private WebElement languageButton;
 
     @FindBy(xpath = "//ul[@class='dropdown-menu hidden-sm-down']")

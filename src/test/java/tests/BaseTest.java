@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import pages.BasePage;
+
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
@@ -43,13 +44,10 @@ public class BaseTest {
         driver.get("https://demo.prestashop.com/");
         driver.manage().window().maximize();
         BasePage.setThreadLocalDriver(driver);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(By.id("loadingMessage")));
         driver.switchTo().frame("framelive");
-        try{
-            new WebDriverWait(driver, 5).until(ExpectedConditions.invisibilityOfElementLocated(By.id("loadingMessage")));
-        } catch (Exception e){
-            e.printStackTrace();
-        }
+        new WebDriverWait(driver, 10).until(ExpectedConditions.invisibilityOfElementLocated(By.id("loadingMessage")));
     }
 
     @AfterClass(alwaysRun = true)

@@ -7,18 +7,19 @@ import pages.MainPage;
 
 import java.util.List;
 
-public class PopularProductTest extends BaseTest{
+public class PopularProductTest extends BaseTest {
     @Test
-    public void checkThatEightPopularProductsHaveNameAndPrice(){
+    public void checkThatPopularProductsHaveNameAndPriceAndCheckTheirAmount() {
         MainPage mainPage = new MainPage();
         SoftAssertions softAssertions = new SoftAssertions();
+        int expectedAmountOfPopularProducts = 8;
         List<Product> actualPopularProductsList = mainPage
                 .getAllPopularProducts();
         softAssertions.assertThat(actualPopularProductsList)
                 .as("Actual amount of Popular Products is not as expected")
-                .hasSize(8);
+                .hasSize(expectedAmountOfPopularProducts);
         softAssertions.assertAll();
-        for(Product product:actualPopularProductsList){
+        for (Product product : actualPopularProductsList) {
             softAssertions.assertThat(product.getNameAsString())
                     .as("Product doesn't have a name")
                     .isNotEmpty();

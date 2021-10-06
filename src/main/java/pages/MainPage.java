@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,10 +20,10 @@ public class MainPage extends BasePage {
     Header header;
     Actions actions = new Actions(getDriver());
 
-    @FindBy(xpath = ".//div[@class='product']")
+    @FindBy(xpath = "//div[@class='product']")
     private List<WebElement> containers;
 
-    @FindBy(xpath = ".//a[@class='all-product-link float-xs-left float-md-right h4']")
+    @FindBy(xpath = "//a[@class='all-product-link float-xs-left float-md-right h4']")
     private WebElement allProductsButton;
 
     public MainPage() {
@@ -59,7 +59,8 @@ public class MainPage extends BasePage {
 
     public List<WebElement> getListOfAllLanguages() {
         log.info("Getting a list of all languages");
-        List<WebElement> listOfAllLanguages = header.getMenuWithAllLanguages().findElements(By.xpath(".//ul[@class='dropdown-menu hidden-sm-down']//li"));
+        List<WebElement> listOfAllLanguages = header.getMenuWithAllLanguages()
+                .findElements(By.xpath(".//li"));
         return listOfAllLanguages;
     }
 
@@ -71,15 +72,15 @@ public class MainPage extends BasePage {
 
     public MainPage moveMouseToClothesCategory() {
         log.info("Hovering mouse over Clothes category");
+        waitUntilVisible(By.xpath("//li[@id='category-3']"),3);
         actions.moveToElement(header.getClothesLink()).build().perform();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//li[@id='category-3']//li")));
         return this;
     }
 
     public MainPage moveMouseToAccessoriesCategory() {
         log.info("Hovering mouse over Accessories category");
+        waitUntilVisible(By.xpath("//li[@id='category-6']"), 3);
         actions.moveToElement(header.getAccessoriesLink()).build().perform();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//li[@id='category-6']//li")));
         return this;
     }
 
@@ -93,12 +94,14 @@ public class MainPage extends BasePage {
         switch (category) {
             case "Clothes":
                 log.info("Getting all elements from Clothes submenu");
+                waitUntilVisible(By.xpath("//li[@id='category-3']//li"),5);
                 return header.getClothesSubMenu().stream().map(WebElement::getText)
                         .map(String::trim)
                         .map(String::toUpperCase)
                         .collect(Collectors.toList());
             case "Accessories":
                 log.info("Getting all elements from Accessories submenu");
+                waitUntilVisible(By.xpath("//li[@id='category-6']//li"),5);
                 return header.getAccessoriesSubMenu().stream().map(WebElement::getText)
                         .map(String::trim)
                         .map(String::toUpperCase)

@@ -9,5 +9,5 @@ public class FakeData {
     private String firstName = faker.name().firstName();
     private String lastName = faker.name().lastName();
     private String email = faker.internet().emailAddress();
-    private String password=faker.internet().password();
+    private String password = faker.internet().password();
 }

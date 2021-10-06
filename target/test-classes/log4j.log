@@ -477,3 +477,680 @@
 [INFO ] 2021-10-05 16:26:52 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
 [INFO ] 2021-10-05 16:30:14 AllProductsPage:59 :clickNextButton - message:Clicking Next button
 [INFO ] 2021-10-05 16:30:15 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:31:54 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 16:31:54 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 16:32:00 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 16:32:17 MainPage:133 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 16:32:18 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 16:35:41 AllProductsPage:67 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-05 16:35:41 AllProductsPage:72 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (7c652c8e722e866aaacd484e019b6845)] -> xpath: .//a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-05 16:35:41 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 16:35:42 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:56:25 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:56:25 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:56:25 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:56:25 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:56:25 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:56:25 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 16:58:23 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 16:58:23 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 16:58:28 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 16:58:54 MainPage:73 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 16:58:57 MainPage:95 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 16:58:57 MainPage:80 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 16:59:01 MainPage:101 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 16:59:01 MainPage:87 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 16:59:01 MainPage:107 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 16:59:13 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:07:41 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 17:07:41 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 17:07:44 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 17:08:11 MainPage:133 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 17:08:13 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 17:08:14 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:09:08 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 17:09:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 17:09:13 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 17:09:36 MainPage:56 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 17:09:37 MainPage:61 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 17:09:47 MainPage:56 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 17:09:47 MainPage:61 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 17:09:57 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 17:22:32 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 17:22:32 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 17:22:35 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 17:22:58 MainPage:73 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 17:23:02 MainPage:95 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 17:23:02 MainPage:80 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 17:23:03 MainPage:101 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 17:23:03 MainPage:87 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 17:23:04 MainPage:107 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 17:23:18 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 18:34:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 18:34:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 18:34:31 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 18:35:08 MainPage:56 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 18:35:10 MainPage:61 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 18:35:21 MainPage:56 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 18:35:21 MainPage:61 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 18:35:32 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 18:40:48 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 18:40:48 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 18:40:52 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 18:41:17 MainPage:57 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 18:41:17 MainPage:62 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 18:41:28 MainPage:57 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 18:41:28 MainPage:62 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 18:41:38 BaseTest:58 :quite - message:Closing the application
+[INFO ] 2021-10-05 18:46:05 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 18:46:05 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 18:46:09 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 18:46:27 MainPage:57 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 18:46:28 MainPage:62 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 18:46:29 BaseTest:58 :quite - message:Closing the application
+[INFO ] 2021-10-05 18:55:40 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 18:55:40 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 18:55:43 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 18:56:05 MainPage:120 :getAllPopularProducts - message:Getting all popular products
+[INFO ] 2021-10-05 18:58:10 BaseTest:58 :quite - message:Closing the application
+[INFO ] 2021-10-05 19:02:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:02:25 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:02:31 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:02:52 MainPage:129 :clickPricesDropLink - message:Clicking Price Drop link
+[INFO ] 2021-10-05 19:02:52 OnSalePage:24 :getAllOnSaleProducts - message:Getting all on sale products
+[INFO ] 2021-10-05 19:02:56 BaseTest:58 :quite - message:Closing the application
+[INFO ] 2021-10-05 19:03:36 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:03:36 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:03:40 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:04:01 MainPage:69 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-05 19:04:02 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-05 19:04:03 RegistrationPage:39 :enterFirstName - message:Entering first nameJames8
+[INFO ] 2021-10-05 19:04:03 RegistrationPage:45 :enterLastName - message:Entering last nameYost
+[INFO ] 2021-10-05 19:04:03 RegistrationPage:51 :enterEmail - message:Entering emailginger.weissnat@yahoo.com
+[INFO ] 2021-10-05 19:04:03 RegistrationPage:57 :enterPassword - message:Entering passwordm27krlkd
+[INFO ] 2021-10-05 19:04:03 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-05 19:04:03 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-05 19:04:04 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-05 19:04:04 RegistrationPage:85 :getColorOfFirstNameFieldBorderWhenInvalidName - message:Getting color of the invalid first name field border
+[INFO ] 2021-10-05 19:04:06 RegistrationPage:90 :getWarningMessage - message:Getting warning message when invalid data is used during registration
+[INFO ] 2021-10-05 19:04:07 BaseTest:58 :quite - message:Closing the application
+[INFO ] 2021-10-05 19:04:40 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:04:40 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:04:57 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:05:14 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:05:14 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:15:38 AllProductsPage:66 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-05 19:15:59 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:15:59 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:16:03 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:16:21 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:16:22 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:19:27 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:19:27 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:19:36 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:19:55 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:19:57 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:21:19 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:21:19 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:21:28 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:21:47 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:21:47 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:23:08 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:23:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:23:12 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:23:32 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:23:32 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:27:12 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:27:12 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:27:16 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:27:39 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:27:40 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:36:44 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:36:44 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:36:47 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:37:07 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:37:07 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:40:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:40:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:40:28 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:40:49 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:40:50 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:45:08 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:45:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:45:11 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:45:31 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:45:32 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:47:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:47:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:47:30 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:47:50 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:47:51 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:51:50 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:51:51 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:51:55 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:52:14 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:52:16 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 19:57:26 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:57:26 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:57:51 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 19:57:51 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 19:57:56 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 19:58:17 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 19:58:18 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:00:37 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:00:37 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:00:42 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:00:47 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:00:47 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:01:29 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:01:29 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:01:33 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:01:50 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:01:50 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:01:51 BaseTest:58 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:05:35 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:05:35 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:05:39 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:05:51 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:05:51 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:06:54 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 20:06:55 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:09:05 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:09:05 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:09:08 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:09:24 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:09:26 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:10:28 AllProductsPage:58 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 20:10:29 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:11:43 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:11:43 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:11:47 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:12:02 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:12:04 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:13:09 AllProductsPage:58 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 20:14:51 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:16:10 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:16:10 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:16:15 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:16:27 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:16:27 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:17:30 AllProductsPage:58 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 20:18:04 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:21:46 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:21:46 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:21:49 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:22:01 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:22:01 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 20:23:04 AllProductsPage:58 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 20:23:05 BaseTest:57 :quite - message:Closing the application
+[INFO ] 2021-10-05 20:24:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 20:24:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 20:24:20 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 20:24:32 MainPage:135 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 20:24:33 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 22:55:28 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 22:55:28 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 22:55:36 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 22:55:49 MainPage:57 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 22:55:50 MainPage:62 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 22:55:52 MainPage:57 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-05 22:55:52 MainPage:62 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-05 22:55:52 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 22:56:28 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 22:56:28 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 22:56:31 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 22:56:45 MainPage:120 :getAllPopularProducts - message:Getting all popular products
+[INFO ] 2021-10-05 22:57:25 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:01:12 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:01:12 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:01:16 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:01:28 MainPage:120 :getAllPopularProducts - message:Getting all popular products
+[INFO ] 2021-10-05 23:02:08 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:08:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:08:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:08:20 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:08:33 MainPage:129 :clickPricesDropLink - message:Clicking Price Drop link
+[INFO ] 2021-10-05 23:08:34 OnSalePage:24 :getAllOnSaleProducts - message:Getting all on sale products
+[INFO ] 2021-10-05 23:08:37 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:09:53 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:09:53 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:09:56 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:10:12 MainPage:69 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-05 23:10:12 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:39 :enterFirstName - message:Entering first nameJames8
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:45 :enterLastName - message:Entering last nameFranecki
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:51 :enterEmail - message:Entering emailmodesto.stracke@gmail.com
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:57 :enterPassword - message:Entering password1qsf95cel
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-05 23:10:13 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-05 23:10:14 RegistrationPage:85 :getColorOfFirstNameFieldBorderWhenInvalidName - message:Getting color of the invalid first name field border
+[INFO ] 2021-10-05 23:10:15 RegistrationPage:90 :getWarningMessage - message:Getting warning message when invalid data is used during registration
+[INFO ] 2021-10-05 23:10:16 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:11:23 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:11:23 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:11:26 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:11:40 MainPage:68 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-05 23:11:41 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-05 23:11:41 RegistrationPage:39 :enterFirstName - message:Entering first nameHerma
+[INFO ] 2021-10-05 23:11:42 RegistrationPage:45 :enterLastName - message:Entering last nameRussel
+[INFO ] 2021-10-05 23:11:42 RegistrationPage:51 :enterEmail - message:Entering emailkathie.howe@hotmail.com
+[INFO ] 2021-10-05 23:11:42 RegistrationPage:57 :enterPassword - message:Entering passworda96zv7hku96u9bs
+[INFO ] 2021-10-05 23:11:42 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-05 23:11:42 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-05 23:11:42 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-05 23:11:43 UserPage:17 :getUserNameAsString - message:Getting user name as string
+[INFO ] 2021-10-05 23:11:44 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:12:05 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:12:06 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:12:09 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:12:22 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:12:25 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:13:44 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:13:44 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:13:47 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:14:00 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:14:03 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:14:03 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:14:05 MainPage:102 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:14:05 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 23:14:10 MainPage:108 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 23:14:15 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:16:23 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:16:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:16:27 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:16:41 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:16:42 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:16:42 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:16:44 MainPage:102 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:16:44 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 23:16:49 MainPage:108 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 23:16:55 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:20:37 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:20:37 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:20:41 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:20:54 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:20:56 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:20:59 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:21:02 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:21:06 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:22:31 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:22:31 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:22:34 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:22:47 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:22:49 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:22:52 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:22:57 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:23:03 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:23:47 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:23:47 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:23:50 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:24:03 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:24:05 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:24:05 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:24:08 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:24:08 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 23:24:13 MainPage:110 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 23:24:18 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:25:42 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:25:42 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:25:45 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:25:59 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:26:01 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:26:01 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:26:03 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:26:03 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 23:26:09 MainPage:110 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 23:26:13 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:28:28 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:28:28 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:28:31 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:28:46 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:29:37 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:29:37 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:29:40 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:29:55 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:29:57 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:30:41 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:31:32 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:31:32 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:31:35 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:31:49 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:31:51 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:31:51 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:31:53 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:31:53 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 23:31:58 MainPage:110 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 23:32:04 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:35:03 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:35:03 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:35:07 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:35:19 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-05 23:35:23 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-05 23:35:25 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-05 23:35:30 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-05 23:35:36 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-05 23:35:38 MainPage:110 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-05 23:35:44 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:36:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:36:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:36:19 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:36:32 MainPage:46 :getNameFromTheSubscribeButton - message:Getting name from the subscribe button
+[INFO ] 2021-10-05 23:36:34 MainPage:51 :isNameOfTheSubscribeButtonInUppercase - message:Getting information whether the name of the subscribe button is in uppercase
+[INFO ] 2021-10-05 23:36:34 MainPage:36 :getTextFromTheSubscriptionSectionNearEmailField - message:Getting text from the subscription section near email field
+[INFO ] 2021-10-05 23:36:34 MainPage:41 :getTextFromTheSubscriptionSectionUnderEmailField - message:Getting text from the subscription section under email field
+[INFO ] 2021-10-05 23:36:34 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:39:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:39:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:39:19 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:39:32 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 23:39:34 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 23:40:36 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 23:40:37 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:44:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:44:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:44:20 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:44:33 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 23:44:34 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 23:45:36 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-05 23:45:37 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-05 23:49:35 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-05 23:49:35 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-05 23:49:39 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-05 23:49:52 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-05 23:49:54 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-05 23:58:21 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 00:00:45 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 00:05:46 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 00:05:46 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 00:05:49 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 00:06:03 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 00:06:04 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 00:07:06 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 00:07:07 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:04:29 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:04:29 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:04:33 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:04:49 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-06 10:04:50 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-06 10:04:56 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:07:26 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:07:26 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:07:29 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:07:45 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 10:07:47 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 10:09:00 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:09:00 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:09:03 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:09:19 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-06 10:09:22 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:10:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:10:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:10:28 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:10:45 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-06 10:10:49 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:13:20 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:13:20 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:13:24 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:13:40 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-06 10:13:42 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-06 10:13:42 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-06 10:13:47 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-06 10:13:48 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-06 10:13:51 MainPage:110 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-06 10:13:57 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:26:21 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:26:21 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:26:25 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:26:45 MainPage:74 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-06 10:26:51 MainPage:96 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-06 10:26:51 MainPage:81 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-06 10:26:56 MainPage:103 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-06 10:26:56 MainPage:88 :moveMouseToArtCategory - message:Hovering mouse over Art category
+[INFO ] 2021-10-06 10:27:01 MainPage:110 :getAllElementsFromSubMenu - message:Getting all elements from Art submenu
+[INFO ] 2021-10-06 10:27:07 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:31:10 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:31:10 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:31:14 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:31:23 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 10:31:37 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 10:32:41 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 10:32:42 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:37:42 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:37:42 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:37:45 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:38:00 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 10:38:01 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 10:39:05 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 10:39:06 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:41:26 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:41:26 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:41:29 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:41:43 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 10:41:44 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 10:42:48 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 10:42:49 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 10:55:22 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 10:55:22 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 10:55:26 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 10:55:38 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 10:55:39 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 10:56:50 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 10:56:51 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 11:01:29 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 11:01:29 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 11:01:33 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 11:01:47 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 11:01:48 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 11:02:52 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 11:02:53 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 11:09:41 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 11:09:41 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 11:09:44 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 11:09:59 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 11:10:00 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 11:23:39 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 11:37:56 AllProductsPage:57 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 11:44:20 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 11:44:42 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 11:44:42 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 11:44:48 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 11:45:01 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 11:45:02 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 11:46:06 AllProductsPage:58 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 11:46:07 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 11:49:27 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 11:49:27 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 11:49:31 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 11:49:45 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 11:49:46 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 11:52:23 AllProductsPage:58 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:02:31 AllProductsPage:65 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 12:02:38 AllProductsPage:72 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (8f8e0ec0a56fbc4a39d1877709c88679)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 12:02:53 AllProductsPage:43 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:16:29 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 12:16:29 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 12:16:34 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 12:16:49 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 12:16:50 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:17:53 AllProductsPage:62 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:17:54 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 12:20:54 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 12:20:54 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 12:20:57 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 12:21:21 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 12:22:23 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 12:22:23 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 12:22:27 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 12:22:43 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 12:22:44 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:26:19 AllProductsPage:62 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:27:27 AllProductsPage:68 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 12:28:52 AllProductsPage:74 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 12:29:17 AllProductsPage:81 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (84ba6593795f898b6703c98f50d5c755)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 12:29:36 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:33:02 AllProductsPage:62 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:34:22 AllProductsPage:68 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 12:36:05 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 12:37:11 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 12:37:11 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 12:37:14 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 12:37:27 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 12:37:29 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:38:33 AllProductsPage:62 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:38:34 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 12:42:33 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 12:42:33 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 12:42:37 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 12:42:49 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 12:42:50 AllProductsPage:44 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:43:55 AllProductsPage:63 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:43:56 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 12:58:08 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 12:58:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 12:58:11 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 12:58:20 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 12:58:29 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 12:59:33 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 12:59:43 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:01:15 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:01:15 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:01:18 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:01:26 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 13:01:35 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:02:37 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 13:03:24 AllProductsPage:76 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 13:03:25 AllProductsPage:82 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 13:03:25 AllProductsPage:89 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (3c6228ae97a91f9dbbf2cf10c05aaa76)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 13:03:25 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:03:26 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:12:06 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:12:06 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:12:10 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:12:24 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 13:12:26 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:13:29 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 13:13:40 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:17:06 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:17:06 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:17:10 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:17:23 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 13:17:24 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:18:27 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 13:19:15 AllProductsPage:76 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 13:19:15 AllProductsPage:82 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 13:19:15 AllProductsPage:89 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (01de2b26c989f3448623634aa445e083)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 13:19:16 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:19:16 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:21:50 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:21:50 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:21:55 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:22:10 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:22:47 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:22:47 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:22:50 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:23:04 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 13:23:05 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:28:19 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 13:29:14 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:53:42 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:53:42 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:53:47 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:54:00 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 13:54:02 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:55:05 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 13:55:52 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 13:55:52 AllProductsPage:80 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 13:55:53 AllProductsPage:87 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (f4b5df12b330702e1da0e5e66af53ffd)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 13:55:53 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:55:54 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 13:57:17 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 13:57:17 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 13:57:21 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 13:57:34 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 13:57:35 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:58:37 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 13:59:25 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 13:59:25 AllProductsPage:80 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 13:59:26 AllProductsPage:87 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (5b0a7f84f2239d5f48b227e84d0cb332)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 13:59:26 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 13:59:28 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 14:05:41 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 14:05:41 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 14:05:45 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 14:06:00 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 14:06:01 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:12:33 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:14:44 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:15:03 AllProductsPage:80 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 14:15:09 AllProductsPage:87 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (df76a44954fed60622b90631e67908a0)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 14:15:19 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:18:13 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:19:33 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 14:26:06 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 14:26:06 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 14:26:10 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 14:26:23 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 14:26:24 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:27:26 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:28:13 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:28:14 AllProductsPage:80 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 14:28:14 AllProductsPage:87 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (6900e4bdbe11cebf184c9d485afe809f)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 14:28:18 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:29:20 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:30:07 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:30:10 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 14:44:41 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 14:44:41 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 14:44:45 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 14:44:58 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 14:44:59 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:46:01 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:46:49 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:46:49 AllProductsPage:80 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 14:46:49 AllProductsPage:87 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (68ba5184b93556806f61628b064986b9)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 14:46:54 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:47:56 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:48:43 AllProductsPage:74 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:48:45 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 14:51:12 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 14:51:12 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 14:51:16 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 14:51:39 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 14:52:20 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 14:52:20 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 14:52:23 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 14:52:35 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 14:52:37 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:53:39 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:54:26 AllProductsPage:73 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:54:27 AllProductsPage:79 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 14:54:27 AllProductsPage:86 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (5c84033df1b4cb4b503023dc13db04d7)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 14:54:31 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 14:55:33 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 14:56:20 AllProductsPage:73 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 14:56:23 BaseTest:55 :quite - message:Closing the application
+[INFO ] 2021-10-06 15:02:43 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 15:02:43 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 15:02:47 BaseTest:43 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-06 15:03:00 MainPage:136 :clickAllProductsButton - message:Clicking All Products button
+[INFO ] 2021-10-06 15:03:01 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 15:04:03 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 15:04:50 AllProductsPage:73 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 15:04:51 AllProductsPage:79 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 15:04:51 AllProductsPage:86 :chooseSortByNameAtoZOption - message:Choosing Sort By Name A to Z option by locator[[ChromeDriver: chrome on WINDOWS (9cf0d081332abf8cc9290469c9483272)] -> xpath: //a[contains(text(),'Name, A to Z')]]
+[INFO ] 2021-10-06 15:04:55 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 15:05:57 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 15:06:44 AllProductsPage:73 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 15:06:46 AllProductsPage:79 :clickSortByButton - message:Clicking Sort By button
+[INFO ] 2021-10-06 15:06:47 AllProductsPage:94 :chooseSortByNameZtoAOption - message:Choosing Sort By Name Z to A option
+[INFO ] 2021-10-06 15:06:50 AllProductsPage:47 :getAllProductsNames - message:Getting names of all the products
+[INFO ] 2021-10-06 15:07:52 AllProductsPage:66 :clickNextButton - message:Clicking Next button
+[INFO ] 2021-10-06 15:08:39 AllProductsPage:73 :clickHomeButton - message:Clicking Home button
+[INFO ] 2021-10-06 15:08:40 BaseTest:55 :quite - message:Closing the application

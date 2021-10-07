@@ -28,7 +28,7 @@ public class PopularProductTest extends BaseTest {
             softAssertions.assertThat(product.getPrice())
                     .as("Product doesn't have a price")
                     .isNotNull();
-            softAssertions.assertAll();
         }
+        softAssertions.assertAll();
     }
 }

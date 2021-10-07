@@ -1554,3 +1554,23 @@
 [INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 [INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 [INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 13:22:42 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 13:22:42 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 13:22:46 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 13:23:03 MainPage:55 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-07 13:23:03 MainPage:60 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-07 13:23:05 MainPage:55 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-07 13:23:05 MainPage:60 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-07 13:23:06 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application

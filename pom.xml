@@ -8,6 +8,9 @@
     <artifactId>FinalTaskTest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
+
+        <browser>chrome</browser>
+
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <aspectj.version>1.9.8.M1</aspectj.version>
@@ -33,9 +36,6 @@
                         <suiteXmlFile>src\test\resources\productTests.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <includes>
-                        <include>**/MainRunner.java</include>
-                    </includes>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
@@ -45,7 +45,7 @@
                             <value>${project.build.directory}/reports/allure-results</value>
                         </property>
                         <property>
-                            <name>browser</name>
+                            <name>${browser}</name>
                         </property>
                     </systemProperties>
                 </configuration>

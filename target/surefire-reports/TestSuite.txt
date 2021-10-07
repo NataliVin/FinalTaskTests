@@ -1,40 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 12, Errors: 0, Skipped: 7, Time elapsed: 3.45 s <<< FAILURE! - in TestSuite
-tests.RegistrationWithInvalidDataTest.setUp  Time elapsed: 2.262 s  <<< FAILURE!
-java.lang.IllegalStateException: Wrong browser
-
-tests.RegistrationWithValidDataTest.setUp  Time elapsed: 2.262 s  <<< FAILURE!
-java.lang.IllegalStateException: Wrong browser
-
-tests.RegistrationWithInvalidDataTest.quite  Time elapsed: 0.111 s  <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 134.403 s <<< FAILURE! - in TestSuite
+tests.LanguagesTest.checkTheNumberOfLanguagesInTheLanguageMenu  Time elapsed: 0.016 s  <<< FAILURE!
 java.lang.NullPointerException
+	at tests.LanguagesTest.checkTheNumberOfLanguagesInTheLanguageMenu(LanguagesTest.java:14)
 
-tests.RegistrationWithValidDataTest.quite  Time elapsed: 0.111 s  <<< FAILURE!
-java.lang.NullPointerException
-
-tests.LanguagesTest.setUp  Time elapsed: 0.172 s  <<< FAILURE!
-java.lang.IllegalStateException: Wrong browser
-
-tests.SubMenuTest.setUp  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.IllegalStateException: Wrong browser
-
-tests.LanguagesTest.quite  Time elapsed: 0.041 s  <<< FAILURE!
-java.lang.NullPointerException
-
-tests.SubMenuTest.quite  Time elapsed: 0.01 s  <<< FAILURE!
-java.lang.NullPointerException
-
-tests.PriceDropTest.setUp  Time elapsed: 0.04 s  <<< FAILURE!
-java.lang.IllegalStateException: Wrong browser
-
-tests.PopularProductTest.setUp  Time elapsed: 0.04 s  <<< FAILURE!
-java.lang.IllegalStateException: Wrong browser
-
-tests.PriceDropTest.quite  Time elapsed: 0.01 s  <<< FAILURE!
-java.lang.NullPointerException
-
-tests.PopularProductTest.quite  Time elapsed: 0.02 s  <<< FAILURE!
-java.lang.NullPointerException
+tests.SubMenuTest.checkSubMenuOfTheCategories  Time elapsed: 17.505 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //li[@id='category-6']//li (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '172.17.253.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 288c08d5785b9b298fd0343651a197cb
+	at tests.SubMenuTest.checkSubMenuOfTheCategories(SubMenuTest.java:22)
 

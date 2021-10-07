@@ -1562,3 +1562,69 @@
 [INFO ] 2021-10-07 13:23:05 MainPage:55 :clickLanguageButton - message:Clicking the language button
 [INFO ] 2021-10-07 13:23:05 MainPage:60 :getListOfAllLanguages - message:Getting a list of all languages
 [INFO ] 2021-10-07 13:23:06 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:13:17 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:25:53 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:35:30 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:35:30 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:35:39 MainPage:70 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-07 19:35:40 MainPage:70 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-07 19:35:47 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-07 19:35:47 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:39 :enterFirstName - message:Entering first nameKeren
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:39 :enterFirstName - message:Entering first nameJames8
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:45 :enterLastName - message:Entering last nameFeil
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:45 :enterLastName - message:Entering last nameFadel
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:51 :enterEmail - message:Entering emailwiley.bartoletti@yahoo.com
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:51 :enterEmail - message:Entering emaileric.mertz@gmail.com
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:57 :enterPassword - message:Entering password86odq5c3yhk0v
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:57 :enterPassword - message:Entering passworduy34xo0lyppi
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-07 19:35:50 RegistrationPage:85 :getColorOfFirstNameFieldBorderWhenInvalidName - message:Getting color of the invalid first name field border
+[INFO ] 2021-10-07 19:35:50 UserPage:17 :getUserNameAsString - message:Getting user name as string
+[INFO ] 2021-10-07 19:35:51 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:35:52 RegistrationPage:90 :getWarningMessage - message:Getting warning message when invalid data is used during registration
+[INFO ] 2021-10-07 19:35:52 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:35:53 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:35:53 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:35:57 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:08 MainPage:55 :clickLanguageButton - message:Clicking the language button
+[INFO ] 2021-10-07 19:36:08 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:36:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:36:10 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:12 MainPage:60 :getListOfAllLanguages - message:Getting a list of all languages
+[INFO ] 2021-10-07 19:36:13 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:36:21 MainPage:76 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-07 19:36:25 MainPage:98 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-07 19:36:28 MainPage:83 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-07 19:36:33 MainPage:105 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
+[INFO ] 2021-10-07 19:36:38 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:36:39 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:36:40 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:36:40 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:36:40 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:36:42 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:42 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:52 MainPage:123 :getAllPopularProducts - message:Getting all popular products
+[INFO ] 2021-10-07 19:36:52 MainPage:132 :clickPricesDropLink - message:Clicking Price Drop link
+[INFO ] 2021-10-07 19:36:53 OnSalePage:24 :getAllOnSaleProducts - message:Getting all on sale products
+[INFO ] 2021-10-07 19:36:54 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:37:30 BaseTest:54 :quite - message:Closing the application

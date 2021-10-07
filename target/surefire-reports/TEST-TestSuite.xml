@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.45" tests="19" errors="0" skipped="7" failures="12">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="134.403" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="D:\FinalTaskTest\target\test-classes;D:\FinalTaskTest\target\classes;C:\Users\User\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.20.2\assertj-core-3.20.2.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.1\webdrivermanager-5.0.1.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\User\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\User\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\User\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\User\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\User\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-log4j12\1.7.32\slf4j-log4j12-1.7.32.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;"/>
@@ -18,10 +19,11 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire3875510218099921269\surefirebooter8996800766761208876.jar C:\Users\User\AppData\Local\Temp\surefire3875510218099921269 2021-10-07T13-19-52_384-jvmRun1 surefire5760275761721928711tmp surefire_04013319604786721119tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire5085553251367971344\surefirebooter7254066525442870612.jar C:\Users\User\AppData\Local\Temp\surefire5085553251367971344 2021-10-07T19-35-15_336-jvmRun1 surefire3403200314198939366tmp surefire_02413872182691585220tmp"/>
     <property name="surefire.test.class.path" value="D:\FinalTaskTest\target\test-classes;D:\FinalTaskTest\target\classes;C:\Users\User\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.20.2\assertj-core-3.20.2.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.1\webdrivermanager-5.0.1.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\User\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\User\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\User\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\User\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\User\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-log4j12\1.7.32\slf4j-log4j12-1.7.32.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="chrome" value=""/>
     <property name="allure.results.directory" value="D:\FinalTaskTest\target/reports/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\User"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -32,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire3875510218099921269\surefirebooter8996800766761208876.jar;C:\Users\User\.m2\repository/org/aspectj/aspectjweaver/1.9.8.M1/aspectjweaver-1.9.8.M1.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire5085553251367971344\surefirebooter7254066525442870612.jar;C:\Users\User\.m2\repository/org/aspectj/aspectjweaver/1.9.8.M1/aspectjweaver-1.9.8.M1.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,7 +45,6 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1251"/>
-    <property name="browser" value=""/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\User\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -62,84 +63,130 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="setUp" classname="tests.RegistrationWithInvalidDataTest" time="2.262">
-    <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
-]]></failure>
+  <testcase name="checkThatUsersNameAppearsAfterRegistration" classname="tests.RegistrationWithValidDataTest" time="12.992">
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:35:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:35:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:35:30 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:35:30 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:35:39 MainPage:70 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-07 19:35:40 MainPage:70 :clickSignInButton - message:Clicking the Sign In button
+[INFO ] 2021-10-07 19:35:47 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-07 19:35:47 LoginPage:18 :clickCreateAccountLink - message:Clicking Create Account link
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:39 :enterFirstName - message:Entering first nameKeren
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:39 :enterFirstName - message:Entering first nameJames8
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:45 :enterLastName - message:Entering last nameFeil
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:45 :enterLastName - message:Entering last nameFadel
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:51 :enterEmail - message:Entering emailwiley.bartoletti@yahoo.com
+[INFO ] 2021-10-07 19:35:48 RegistrationPage:51 :enterEmail - message:Entering emaileric.mertz@gmail.com
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:57 :enterPassword - message:Entering password86odq5c3yhk0v
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:57 :enterPassword - message:Entering passworduy34xo0lyppi
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:63 :clickOnCustomerDataPrivacyCheckBox - message:Clicking on customer data privacy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:69 :clickOnAgreePrivacyPolicyCheckBox - message:Clicking on agree privacy policy checkbox
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-07 19:35:49 RegistrationPage:75 :clickSaveButton - message:Clicking on Save button
+[INFO ] 2021-10-07 19:35:50 RegistrationPage:85 :getColorOfFirstNameFieldBorderWhenInvalidName - message:Getting color of the invalid first name field border
+[INFO ] 2021-10-07 19:35:50 UserPage:17 :getUserNameAsString - message:Getting user name as string
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 9S4t.0a.r4t6i0ng6 .C6h1r o(m4e1D8rb7i8vfe5r8 3984e.d00.b4160c669.b6b14 e(5411e8ab07285f25183781e8d504b911c56-9rbbef4s/eb5ra1necha-heads/4606@{#1204}) on port 23764
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping Chro0m2eD5r2i1ve7r1 8s5a4f9e15.-r
+efs/branch-heads/4606@{#1204}) on port 5391
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+окт 07, 2021 7:35:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+окт 07, 2021 7:35:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
   </testcase>
-  <testcase name="checkThatInvalidDataHighlightedRedAndWarningAppears" classname="tests.RegistrationWithInvalidDataTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="quite" classname="tests.RegistrationWithInvalidDataTest" time="0.111">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
-[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
+  <testcase name="checkThatInvalidDataHighlightedRedAndWarningAppears" classname="tests.RegistrationWithInvalidDataTest" time="13.733">
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:35:51 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:35:52 RegistrationPage:90 :getWarningMessage - message:Getting warning message when invalid data is used during registration
 ]]></system-out>
   </testcase>
-  <testcase name="setUp" classname="tests.RegistrationWithValidDataTest" time="2.262">
-    <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
-]]></failure>
-  </testcase>
-  <testcase name="checkThatUsersNameAppearsAfterRegistration" classname="tests.RegistrationWithValidDataTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="quite" classname="tests.RegistrationWithValidDataTest" time="0.111">
+  <testcase name="checkTheNumberOfLanguagesInTheLanguageMenu" classname="tests.LanguagesTest" time="0.016">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at tests.LanguagesTest.checkTheNumberOfLanguagesInTheLanguageMenu(LanguagesTest.java:14)
 ]]></failure>
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:35:52 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:35:53 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:35:53 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:35:57 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:08 MainPage:55 :clickLanguageButton - message:Clicking the language button
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 21357
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+окт 07, 2021 7:35:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
   </testcase>
-  <testcase name="setUp" classname="tests.LanguagesTest" time="0.172">
-    <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
+  <testcase name="checkThatUkrainianExistsInTheLanguageMenu" classname="tests.LanguagesTest" time="4.923">
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:36:08 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:36:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:36:10 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:12 MainPage:60 :getListOfAllLanguages - message:Getting a list of all languages
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 13761
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+окт 07, 2021 7:36:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSubMenuOfTheCategories" classname="tests.SubMenuTest" time="17.505">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //li[@id=&apos;category-6&apos;]//li (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;172.17.253.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 288c08d5785b9b298fd0343651a197cb" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //li[@id='category-6']//li (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '172.17.253.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 288c08d5785b9b298fd0343651a197cb
+	at tests.SubMenuTest.checkSubMenuOfTheCategories(SubMenuTest.java:22)
 ]]></failure>
-  </testcase>
-  <testcase name="checkThatUkrainianExistsInTheLanguageMenu" classname="tests.LanguagesTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="checkTheNumberOfLanguagesInTheLanguageMenu" classname="tests.LanguagesTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="quite" classname="tests.LanguagesTest" time="0.041">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:36:13 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:36:21 MainPage:76 :moveMouseToClothesCategory - message:Hovering mouse over Clothes category
+[INFO ] 2021-10-07 19:36:25 MainPage:98 :getAllElementsFromSubMenu - message:Getting all elements from Clothes submenu
+[INFO ] 2021-10-07 19:36:28 MainPage:83 :moveMouseToAccessoriesCategory - message:Hovering mouse over Accessories category
+[INFO ] 2021-10-07 19:36:33 MainPage:105 :getAllElementsFromSubMenu - message:Getting all elements from Accessories submenu
 ]]></system-out>
   </testcase>
-  <testcase name="setUp" classname="tests.SubMenuTest" time="0.001">
-    <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
-]]></failure>
-  </testcase>
-  <testcase name="checkSubMenuOfTheCategories" classname="tests.SubMenuTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="quite" classname="tests.SubMenuTest" time="0.01">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
+  <testcase name="checkThatEveryProductHasOldPriceAndCorrectNewPrice" classname="tests.PriceDropTest" time="1.807">
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:36:38 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 19:36:39 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:36:40 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-07 19:36:40 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:36:40 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-07 19:36:42 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:42 BaseTest:42 :setUp - message:Opening main page of the application https://demo.prestashop.com/
+[INFO ] 2021-10-07 19:36:52 MainPage:123 :getAllPopularProducts - message:Getting all popular products
+[INFO ] 2021-10-07 19:36:52 MainPage:132 :clickPricesDropLink - message:Clicking Price Drop link
+[INFO ] 2021-10-07 19:36:53 OnSalePage:24 :getAllOnSaleProducts - message:Getting all on sale products
 ]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 24915
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 6827
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+окт 07, 2021 7:36:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+окт 07, 2021 7:36:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
   </testcase>
-  <testcase name="setUp" classname="tests.PriceDropTest" time="0.04">
-    <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
-]]></failure>
-  </testcase>
-  <testcase name="checkThatEveryProductHasOldPriceAndCorrectNewPrice" classname="tests.PriceDropTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="quite" classname="tests.PriceDropTest" time="0.01">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
-]]></system-out>
-  </testcase>
-  <testcase name="setUp" classname="tests.PopularProductTest" time="0.04">
-    <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
-]]></failure>
-  </testcase>
-  <testcase name="checkThatPopularProductsHaveNameAndPriceAndCheckTheirAmount" classname="tests.PopularProductTest" time="0">
-    <skipped message="Wrong browser"/>
-  </testcase>
-  <testcase name="quite" classname="tests.PopularProductTest" time="0.02">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
+  <testcase name="checkThatPopularProductsHaveNameAndPriceAndCheckTheirAmount" classname="tests.PopularProductTest" time="37.811">
+    <system-out><![CDATA[[INFO ] 2021-10-07 19:36:54 BaseTest:54 :quite - message:Closing the application
 ]]></system-out>
   </testcase>
 </testsuite>

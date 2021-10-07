@@ -35,6 +35,8 @@ public class SortingTest extends BaseTest {
         softAssertions.assertThat(actualReversedSortedByNameProductsList)
                 .as("Sorting by name Z to A is not correct")
                 .isEqualTo(expectedSortedByNameProductsList);
+
+        softAssertions.assertAll();
     }
 
     @Test

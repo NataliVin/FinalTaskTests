@@ -56,11 +56,15 @@ public class MainPage extends BasePage {
         header.getLanguageButton().click();
     }
 
-    public List<WebElement> getListOfAllLanguages() {
+    public List<String> getListOfAllLanguages() {
         log.info("Getting a list of all languages");
-        List <WebElement> allLanguages= header.getMenuWithAllLanguages().findElements(By.xpath(".//li"));
+        List <String > allLanguages= new ArrayList<>();
+        for (WebElement language: header.getMenuWithAllLanguages()) {
+            allLanguages.add(language.getAttribute("text"));
+        }
         return allLanguages;
     }
+
 
     public LoginPage clickSignInButton() {
         log.info("Clicking the Sign In button");

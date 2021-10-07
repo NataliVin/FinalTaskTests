@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.67" tests="19" errors="0" skipped="7" failures="12">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.45" tests="19" errors="0" skipped="7" failures="12">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire118079646420248593\surefirebooter556171949626079842.jar C:\Users\User\AppData\Local\Temp\surefire118079646420248593 2021-10-05T17-01-01_108-jvmRun1 surefire5354938282590595916tmp surefire_07407389295279661530tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire3875510218099921269\surefirebooter8996800766761208876.jar C:\Users\User\AppData\Local\Temp\surefire3875510218099921269 2021-10-07T13-19-52_384-jvmRun1 surefire5760275761721928711tmp surefire_04013319604786721119tmp"/>
     <property name="surefire.test.class.path" value="D:\FinalTaskTest\target\test-classes;D:\FinalTaskTest\target\classes;C:\Users\User\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.20.2\assertj-core-3.20.2.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.1\webdrivermanager-5.0.1.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\User\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\User\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\User\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\User\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\User\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\User\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\User\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\User\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\User\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-log4j12\1.7.32\slf4j-log4j12-1.7.32.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="D:\FinalTaskTest\target/reports/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire118079646420248593\surefirebooter556171949626079842.jar;C:\Users\User\.m2\repository/org/aspectj/aspectjweaver/1.9.8.M1/aspectjweaver-1.9.8.M1.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire3875510218099921269\surefirebooter8996800766761208876.jar;C:\Users\User\.m2\repository/org/aspectj/aspectjweaver/1.9.8.M1/aspectjweaver-1.9.8.M1.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,84 +62,84 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="setUp" classname="tests.RegistrationWithInvalidDataTest" time="2.201">
+  <testcase name="setUp" classname="tests.RegistrationWithInvalidDataTest" time="2.262">
     <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
 ]]></failure>
   </testcase>
   <testcase name="checkThatInvalidDataHighlightedRedAndWarningAppears" classname="tests.RegistrationWithInvalidDataTest" time="0">
     <skipped message="Wrong browser"/>
   </testcase>
-  <testcase name="quite" classname="tests.RegistrationWithInvalidDataTest" time="0.051">
+  <testcase name="quite" classname="tests.RegistrationWithInvalidDataTest" time="0.111">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
-[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
+[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 ]]></system-out>
   </testcase>
-  <testcase name="setUp" classname="tests.RegistrationWithValidDataTest" time="2.201">
+  <testcase name="setUp" classname="tests.RegistrationWithValidDataTest" time="2.262">
     <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
 ]]></failure>
   </testcase>
   <testcase name="checkThatUsersNameAppearsAfterRegistration" classname="tests.RegistrationWithValidDataTest" time="0">
     <skipped message="Wrong browser"/>
   </testcase>
-  <testcase name="quite" classname="tests.RegistrationWithValidDataTest" time="0.051">
+  <testcase name="quite" classname="tests.RegistrationWithValidDataTest" time="0.111">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
   </testcase>
-  <testcase name="setUp" classname="tests.LanguagesTest" time="0.112">
+  <testcase name="setUp" classname="tests.LanguagesTest" time="0.172">
     <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
 ]]></failure>
-  </testcase>
-  <testcase name="checkTheNumberOfLanguagesInTheLanguageMenu" classname="tests.LanguagesTest" time="0">
-    <skipped message="Wrong browser"/>
   </testcase>
   <testcase name="checkThatUkrainianExistsInTheLanguageMenu" classname="tests.LanguagesTest" time="0">
     <skipped message="Wrong browser"/>
   </testcase>
-  <testcase name="quite" classname="tests.LanguagesTest" time="0.01">
+  <testcase name="checkTheNumberOfLanguagesInTheLanguageMenu" classname="tests.LanguagesTest" time="0">
+    <skipped message="Wrong browser"/>
+  </testcase>
+  <testcase name="quite" classname="tests.LanguagesTest" time="0.041">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 ]]></system-out>
   </testcase>
-  <testcase name="setUp" classname="tests.SubMenuTest" time="0">
+  <testcase name="setUp" classname="tests.SubMenuTest" time="0.001">
     <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
 ]]></failure>
   </testcase>
   <testcase name="checkSubMenuOfTheCategories" classname="tests.SubMenuTest" time="0">
     <skipped message="Wrong browser"/>
   </testcase>
-  <testcase name="quite" classname="tests.SubMenuTest" time="0.019">
+  <testcase name="quite" classname="tests.SubMenuTest" time="0.01">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 ]]></system-out>
   </testcase>
-  <testcase name="setUp" classname="tests.PriceDropTest" time="0.039">
+  <testcase name="setUp" classname="tests.PriceDropTest" time="0.04">
     <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
 ]]></failure>
   </testcase>
   <testcase name="checkThatEveryProductHasOldPriceAndCorrectNewPrice" classname="tests.PriceDropTest" time="0">
     <skipped message="Wrong browser"/>
   </testcase>
-  <testcase name="quite" classname="tests.PriceDropTest" time="0.015">
+  <testcase name="quite" classname="tests.PriceDropTest" time="0.01">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 ]]></system-out>
   </testcase>
-  <testcase name="setUp" classname="tests.PopularProductTest" time="0.039">
+  <testcase name="setUp" classname="tests.PopularProductTest" time="0.04">
     <failure message="Wrong browser" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Wrong browser
 ]]></failure>
   </testcase>
-  <testcase name="checkThatEightPopularProductsHaveNameAndPrice" classname="tests.PopularProductTest" time="0">
+  <testcase name="checkThatPopularProductsHaveNameAndPriceAndCheckTheirAmount" classname="tests.PopularProductTest" time="0">
     <skipped message="Wrong browser"/>
   </testcase>
-  <testcase name="quite" classname="tests.PopularProductTest" time="0.015">
+  <testcase name="quite" classname="tests.PopularProductTest" time="0.02">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-10-05 17:01:06 BaseTest:57 :quite - message:Closing the application
+    <system-out><![CDATA[[INFO ] 2021-10-07 13:19:58 BaseTest:54 :quite - message:Closing the application
 ]]></system-out>
   </testcase>
 </testsuite>

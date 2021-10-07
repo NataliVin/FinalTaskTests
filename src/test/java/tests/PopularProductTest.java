@@ -17,7 +17,7 @@ public class PopularProductTest extends BaseTest {
         softAssertions.assertThat(actualPopularProductsList)
                 .as("Actual amount of Popular Products is not as expected")
                 .hasSize(expectedAmountOfPopularProducts);
-        softAssertions.assertAll();
+
         for (Product product : actualPopularProductsList) {
             softAssertions.assertThat(product.getNameAsString())
                     .as("Product doesn't have a name")
@@ -28,6 +28,7 @@ public class PopularProductTest extends BaseTest {
             softAssertions.assertThat(product.getPrice())
                     .as("Product doesn't have a price")
                     .isNotNull();
+            softAssertions.assertAll();
         }
     }
 }

@@ -1,11 +1,8 @@
 package tests;
 
 import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import pages.MainPage;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -16,7 +13,7 @@ public class LanguagesTest extends BaseTest {
     public void checkTheNumberOfLanguagesInTheLanguageMenu() {
         MainPage mainPage = new MainPage();
         mainPage.clickLanguageButton();
-        List<WebElement> allLanguages = mainPage.getListOfAllLanguages();
+        List<String> allLanguages = mainPage.getListOfAllLanguages();
         int expectedAmountOfLanguages = 44;
         assertThat(allLanguages.size())
                 .as("The amount of languages is not as expected")
@@ -28,12 +25,8 @@ public class LanguagesTest extends BaseTest {
         MainPage mainPage = new MainPage();
         mainPage.clickLanguageButton();
         String expectedLanguageToBeInTheList = "Українська";
-        List<WebElement> allLanguages = mainPage.getListOfAllLanguages();
-        List<String> allLanguagesAsString = new ArrayList<>();
-        for (int i = 0; i < allLanguages.size(); i++) {
-            allLanguagesAsString.add(allLanguages.get(i).getText());
-        }
-        assertThat(allLanguagesAsString)
+        List<String> allLanguages = mainPage.getListOfAllLanguages();
+        assertThat(allLanguages)
                 .as("Ukrainian language doesn't exist in the Language Menu")
                 .contains(expectedLanguageToBeInTheList);
     }

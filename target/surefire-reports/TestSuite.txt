@@ -1,40 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 12, Errors: 0, Skipped: 7, Time elapsed: 3.67 s <<< FAILURE! - in TestSuite
-tests.RegistrationWithInvalidDataTest.setUp  Time elapsed: 2.201 s  <<< FAILURE!
+Tests run: 19, Failures: 12, Errors: 0, Skipped: 7, Time elapsed: 3.45 s <<< FAILURE! - in TestSuite
+tests.RegistrationWithInvalidDataTest.setUp  Time elapsed: 2.262 s  <<< FAILURE!
 java.lang.IllegalStateException: Wrong browser
 
-tests.RegistrationWithValidDataTest.setUp  Time elapsed: 2.201 s  <<< FAILURE!
+tests.RegistrationWithValidDataTest.setUp  Time elapsed: 2.262 s  <<< FAILURE!
 java.lang.IllegalStateException: Wrong browser
 
-tests.RegistrationWithInvalidDataTest.quite  Time elapsed: 0.051 s  <<< FAILURE!
+tests.RegistrationWithInvalidDataTest.quite  Time elapsed: 0.111 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.RegistrationWithValidDataTest.quite  Time elapsed: 0.051 s  <<< FAILURE!
+tests.RegistrationWithValidDataTest.quite  Time elapsed: 0.111 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.LanguagesTest.setUp  Time elapsed: 0.112 s  <<< FAILURE!
+tests.LanguagesTest.setUp  Time elapsed: 0.172 s  <<< FAILURE!
 java.lang.IllegalStateException: Wrong browser
 
-tests.SubMenuTest.setUp  Time elapsed: 0 s  <<< FAILURE!
+tests.SubMenuTest.setUp  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.IllegalStateException: Wrong browser
 
-tests.LanguagesTest.quite  Time elapsed: 0.01 s  <<< FAILURE!
+tests.LanguagesTest.quite  Time elapsed: 0.041 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.SubMenuTest.quite  Time elapsed: 0.019 s  <<< FAILURE!
+tests.SubMenuTest.quite  Time elapsed: 0.01 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.PriceDropTest.setUp  Time elapsed: 0.039 s  <<< FAILURE!
+tests.PriceDropTest.setUp  Time elapsed: 0.04 s  <<< FAILURE!
 java.lang.IllegalStateException: Wrong browser
 
-tests.PopularProductTest.setUp  Time elapsed: 0.039 s  <<< FAILURE!
+tests.PopularProductTest.setUp  Time elapsed: 0.04 s  <<< FAILURE!
 java.lang.IllegalStateException: Wrong browser
 
-tests.PopularProductTest.quite  Time elapsed: 0.015 s  <<< FAILURE!
+tests.PriceDropTest.quite  Time elapsed: 0.01 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.PriceDropTest.quite  Time elapsed: 0.015 s  <<< FAILURE!
+tests.PopularProductTest.quite  Time elapsed: 0.02 s  <<< FAILURE!
 java.lang.NullPointerException
 

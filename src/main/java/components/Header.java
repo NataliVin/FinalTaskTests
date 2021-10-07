@@ -16,8 +16,8 @@ public class Header {
     @FindBy(xpath = "//i[@class='material-icons expand-more']")
     private WebElement languageButton;
 
-    @FindBy(xpath = "//ul[@class='dropdown-menu hidden-sm-down']")
-    private WebElement menuWithAllLanguages;
+    @FindBy(xpath = "//a[@data-iso-code]")
+    private List<WebElement> menuWithAllLanguages;
 
     @FindBy(xpath = "//div[@class='user-info']//a")
     private WebElement signInButton;

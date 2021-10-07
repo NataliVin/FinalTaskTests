@@ -75,7 +75,7 @@ public class AllProductsPage extends BasePage {
 
     public AllProductsPage clickNextButton() {
         log.info("Clicking Next button");
-        waitUntilClicable(By.xpath("//a[@class='next js-search-link']"), 3);
+        waitUntilClickable(By.xpath("//a[@class='next js-search-link']"), 3);
         nextButton.click();
         waitingForSpinner();
         return this;
@@ -83,14 +83,14 @@ public class AllProductsPage extends BasePage {
 
     public AllProductsPage clickHomeButton() {
         log.info("Clicking Home button");
-        waitUntilClicable(By.xpath("//ul[@class='category-top-menu']//a[@class='text-uppercase h6']"), 3);
+        waitUntilClickable(By.xpath("//ul[@class='category-top-menu']//a[@class='text-uppercase h6']"), 3);
         homeButton.click();
         return this;
     }
 
     public AllProductsPage clickSortByButton() {
         log.info("Clicking Sort By button");
-        waitUntilClicable(By.xpath("//button[@class='btn-unstyle select-title']"), 3);
+        waitUntilClickable(By.xpath("//button[@class='btn-unstyle select-title']"), 3);
         sortByButton.click();
         return this;
     }

@@ -28,7 +28,7 @@ public class BasePage {
         return new WebDriverWait(getDriver(), seconds).until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    protected WebElement waitUntilClicable(By locator, int seconds) {
+    protected WebElement waitUntilClickable(By locator, int seconds) {
         return new WebDriverWait(getDriver(), seconds).until(ExpectedConditions.elementToBeClickable(locator));
     }
 
